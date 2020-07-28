@@ -1,0 +1,16 @@
+{
+  "name": "[NAME-OF-APPLICATION-FOR-EXAMPLE]",
+  "handle": [
+    {
+      "path": "/",
+      "https": true
+    }
+  ],
+  "packaging": {
+    "requires": [
+      "java-1.8.0-openjdk",
+      "httpd24",
+      "httpd24-mod_ssl"
+    ]
+  }
+}

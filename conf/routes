@@ -1,0 +1,10 @@
+### https://www.playframework.com/documentation/2.5.x/RequestBinders#/conf/routes
+
+# Routes file defines all application routes, high priority routes first.
+# ~~~~
+
+# Default example routes.
+GET        /                    java8.play2.example.ExampleApi.defaultExampleIndex()
+GET        /status              java8.play2.example.ExampleApi.defaultExampleStatus()
+
+

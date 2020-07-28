@@ -1,0 +1,11 @@
+{
+  "Type": "Notification",
+  "MessageId": "qwertyuio-asdf-ghjk-lzxc-vbnmqwertyui",
+  "TopicArn": "arn:aws:sns:eu-west-1:123456789012:example-sns-topic-name",
+  "Message": "{\"example_json_field1\":[],\"example_current_timestamp\":%s,\"example_json_field2\":\"blah2\"}",
+  "Timestamp": "2015-11-01T19:53:17.961Z",
+  "SignatureVersion": "1",
+  "Signature": "[SOME-LONG-EXAMPLE-SIGNATURE-GUIID]",
+  "SigningCertURL": "https://sns.eu-west-1.amazonaws.com/SimpleNotificationService-[EXAMPLE-GUIID].pem",
+  "UnsubscribeURL": "https://sns.eu-west-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:eu-west-1:123456789012:example-sns-topic-name"
+}

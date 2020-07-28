@@ -1,0 +1,38 @@
+/out
+.DS_Store
+
+*.class
+*.log
+
+# Play Framework
+RUNNING_PID
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.classpath
+.project
+.cache
+
+# IntelliJ
+.idea/
+.idea_modules/
+*.iml
+
+# Emacs
+.ensime
+.ensime_cache/
+
+# Activator specific
+activator*
+
+# Other
+.java-version
+workbench.xmi
